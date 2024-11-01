@@ -20,6 +20,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbdreverse", "tools\kbdreve
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtools", "tools\libtools.vcxproj", "{29BD96E0-B6C5-42A0-B683-FD9740810600}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbneu003", "keyboards\kbneu003\kbneu003.vcxproj", "{04AD1307-1C07-4848-93FF-76005FDCC59A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbtrm002", "keyboards\kbtrm002\kbtrm002.vcxproj", "{DD82AAE9-A61F-492E-B377-46FE1F537CB9}"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbdfrapple", "keyboards\kbdfrapple\kbdfrapple.vcxproj", "{B9B80495-01BA-4AFD-99FE-F87822FB832C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbdfnapple", "keyboards\kbdfnapple\kbdfnapple.vcxproj", "{DCCE0BD5-25A8-49E2-A7DA-754E22935020}"
