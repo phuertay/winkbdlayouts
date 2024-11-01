@@ -15,7 +15,7 @@
   <PropertyGroup Condition="'$(ProjectDir)'==''">
     <ProjectDir>$(MSBuildProjectDirectory)\</ProjectDir>
   </PropertyGroup>
-  <PropertyGroup Condition="$([System.Text.RegularExpressions.Regex]::IsMatch($(ProjectName), '^kbd.*')) and
+  <PropertyGroup Condition="$([System.Text.RegularExpressions.Regex]::IsMatch($(ProjectName), '^kb.*')) and
                             Exists('$(ProjectDir)$(ProjectName).c') and
                             Exists('$(ProjectDir)strings.h')">
     <ProjectType>KeyboardLayout</ProjectType>
