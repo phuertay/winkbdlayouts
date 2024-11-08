@@ -11,8 +11,14 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtools", "tools\libtools.vcxproj", "{29BD96E0-B6C5-42A0-B683-FD9740810600}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbdreverse", "tools\kbdreverse.vcxproj", "{38202AFE-E69D-4994-8943-8F39164776D1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{29BD96E0-B6C5-42A0-B683-FD9740810600} = {29BD96E0-B6C5-42A0-B683-FD9740810600}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbdadmin", "tools\kbdadmin.vcxproj", "{599FF9E1-4CB8-4511-9D55-A5CBC6191DC3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{29BD96E0-B6C5-42A0-B683-FD9740810600} = {29BD96E0-B6C5-42A0-B683-FD9740810600}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbdneu", "keyboards\kbdneu\kbdneu.vcxproj", "{AB26BB76-96F0-4633-A37F-1192FC2065C9}"
 EndProject
